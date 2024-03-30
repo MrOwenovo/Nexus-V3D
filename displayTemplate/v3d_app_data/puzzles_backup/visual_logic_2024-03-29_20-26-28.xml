@@ -1,5 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <tab name="init" type="InitTab" active="true" scrollx="390.8594863891602" scrolly="261" scale="0.9">
+  <tab name="init" type="InitTab" active="true" scrollx="345.8594863891602" scrolly="261" scale="0.9">
     <block xmlns="https://developers.google.com/blockly/xml" type="initSettings" id="bI8mmN1~}f]L|i)[8vtD" x="-130" y="-290">
       <field name="LOAD_COMP_ASSETS">TRUE</field>
       <field name="FULLSCREEN">TRUE</field>
@@ -7,11 +7,11 @@
       <field name="PRESERVE_DRAW_BUF">FALSE</field>
       <field name="FADE_ANNOTATIONS">TRUE</field>
     </block>
-    <block xmlns="https://developers.google.com/blockly/xml" type="initPreloader" id="u)OK^U$BPkEou~QKb$)e" x="-155" y="-63">
+    <block xmlns="https://developers.google.com/blockly/xml" type="initPreloader" id="u)OK^U$BPkEou~QKb$)e" disabled="true" x="-155" y="-63">
       <statement name="DO_PROGRESS">
         <block type="setHTMLElemAttribute" id="^~ju`LPKbEcBVt?k~)Ky">
           <field name="ATTRIBUTE">innerHTML</field>
-          <field name="PARENT">FALSE</field>
+          <field name="PARENT">TRUE</field>
           <value name="VALUE">
             <block type="text_join" id="@7{xogLJuP#|3eaNrW/4">
               <mutation items="2"></mutation>
@@ -30,7 +30,7 @@
               <field name="TEXT"></field>
             </shadow>
             <block type="text" id="fqA6cyD=]#YO5/W!`Pb/">
-              <field name="TEXT">loading-text</field>
+              <field name="TEXT">gwd-p-vmkb</field>
             </block>
           </value>
         </block>
@@ -38,13 +38,13 @@
       <statement name="DO_END">
         <block type="setHTMLElemAttribute" id="Elfv%p8R{e)ZZ0jqP`8,">
           <field name="ATTRIBUTE">innerHTML</field>
-          <field name="PARENT">FALSE</field>
+          <field name="PARENT">TRUE</field>
           <value name="VALUE">
             <block type="text_join" id="8=52zS5(eIkWT7~vc_IK">
-              <mutation items="1"></mutation>
-              <value name="ADD0">
+              <mutation items="2"></mutation>
+              <value name="ADD1">
                 <block type="text" id="$/pm%+l)ht1?7uVrJ=@K">
-                  <field name="TEXT">Finish</field>
+                  <field name="TEXT">点击以开始</field>
                 </block>
               </value>
             </block>
@@ -54,23 +54,13 @@
               <field name="TEXT"></field>
             </shadow>
             <block type="text" id="cRa(dZ|y2`}xfqIMV.JU">
-              <field name="TEXT">loading-text</field>
+              <field name="TEXT">gwd-p-vmkb</field>
             </block>
           </value>
-          <next>
-            <block type="removeHTMLElement" id="qKo.G`+y=Qz!WUTIC%=1">
-              <field name="PARENT">FALSE</field>
-              <value name="ID">
-                <shadow type="text" id="HCpoo!7$T?Zap!{yD7c(">
-                  <field name="TEXT">loading-screen</field>
-                </shadow>
-              </value>
-            </block>
-          </next>
         </block>
       </statement>
     </block>
   </tab>
-  <tab name="main" type="CommonTab" active="false" scrollx="0" scrolly="525.6210674883835" scale="0.33269216157086867"></tab>
-  <editorsettings viewport-x="846" viewport-y="28" viewport-w="576" viewport-h="385" viewport-hidden="true" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+  <tab name="main" type="CommonTab" active="false" scrollx="-67.5" scrolly="525.6210674883835" scale="0.33269216157086867"></tab>
+  <editorsettings viewport-x="846" viewport-y="28" viewport-w="576" viewport-h="385" viewport-hidden="true" toolbox-library-mode="true" toolbox-minimized-mode="false"></editorsettings>
 </xml>

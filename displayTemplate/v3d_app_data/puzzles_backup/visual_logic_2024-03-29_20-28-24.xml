@@ -11,7 +11,7 @@
       <statement name="DO_PROGRESS">
         <block type="setHTMLElemAttribute" id="^~ju`LPKbEcBVt?k~)Ky">
           <field name="ATTRIBUTE">innerHTML</field>
-          <field name="PARENT">FALSE</field>
+          <field name="PARENT">TRUE</field>
           <value name="VALUE">
             <block type="text_join" id="@7{xogLJuP#|3eaNrW/4">
               <mutation items="2"></mutation>
@@ -38,7 +38,7 @@
       <statement name="DO_END">
         <block type="setHTMLElemAttribute" id="Elfv%p8R{e)ZZ0jqP`8,">
           <field name="ATTRIBUTE">innerHTML</field>
-          <field name="PARENT">FALSE</field>
+          <field name="PARENT">TRUE</field>
           <value name="VALUE">
             <block type="text_join" id="8=52zS5(eIkWT7~vc_IK">
               <mutation items="1"></mutation>
@@ -59,12 +59,22 @@
           </value>
           <next>
             <block type="removeHTMLElement" id="qKo.G`+y=Qz!WUTIC%=1">
-              <field name="PARENT">FALSE</field>
+              <field name="PARENT">TRUE</field>
               <value name="ID">
                 <shadow type="text" id="HCpoo!7$T?Zap!{yD7c(">
                   <field name="TEXT">loading-screen</field>
                 </shadow>
               </value>
+              <next>
+                <block type="removeHTMLElement" id="j9,LI)-PwiG9h:V16uuy">
+                  <field name="PARENT">TRUE</field>
+                  <value name="ID">
+                    <shadow type="text" id="C*UP]Q}PFF]q?Ew~-B2l">
+                      <field name="TEXT">loading-text</field>
+                    </shadow>
+                  </value>
+                </block>
+              </next>
             </block>
           </next>
         </block>
