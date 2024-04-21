@@ -1,0 +1,761 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="267.2594863891602" scrolly="261" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="initSettings" id="bI8mmN1~}f]L|i)[8vtD" x="-130" y="-290">
+      <field name="LOAD_COMP_ASSETS">TRUE</field>
+      <field name="FULLSCREEN">TRUE</field>
+      <field name="BKG_TRANSPARENCY">FALSE</field>
+      <field name="PRESERVE_DRAW_BUF">FALSE</field>
+      <field name="FADE_ANNOTATIONS">TRUE</field>
+    </block>
+  </tab>
+  <tab name="main" type="CommonTab" active="true" scrollx="473.30777068289945" scrolly="1098.2376777375243" scale="0.38550876077351154">
+    <variables xmlns="https://developers.google.com/blockly/xml">
+      <variable id="wEC)uc`WeFxa]LaOvHu-">pricelist</variable>
+      <variable id="od/`0c,[Fnna0xqUzf#_">recliner_unfolded</variable>
+    </variables>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="+hO%{[PlWo+A0s](y4CN" x="-1010" y="-2541">
+      <field name="EVENT">click</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <block type="text" id="1r*(WOY,#XeqCPE`iD]a">
+          <field name="TEXT">cream</field>
+        </block>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id=")B{)@dicy{1#(3m1Nubh">
+          <value name="VALUE2">
+            <shadow type="materialList" id="R;o-;?)K=zvsdB,#NvoZ">
+              <field name="FIELDNAME">奶油</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="/AE2yLn+FK78Q.Oi3Hlb">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="objectList" id="~j._4m9bN2.wu!JAh=zy">
+              <field name="FIELDNAME">一层白棋1-1</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+      <next>
+        <block type="eventHTMLElem" id="BE@Bd:BCzl+V4q`)=j`y">
+          <field name="EVENT">click</field>
+          <field name="PARENT">TRUE</field>
+          <value name="ID">
+            <block type="text" id="IHQ_4x=r|[9|h;7T!wFM">
+              <field name="TEXT">marble</field>
+            </block>
+          </value>
+          <statement name="DO">
+            <block type="assignMaterial" id="C0(0.y]y}HsV8Ni7Km_Z">
+              <value name="VALUE2">
+                <shadow type="materialList" id="=j#Q@W~86)K%87HF-0E_">
+                  <field name="FIELDNAME">大理石</field>
+                </shadow>
+              </value>
+              <value name="VALUE1">
+                <shadow type="objectList" id="/AE2yLn+FK78Q.Oi3Hlb">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="objectList" id="_Y?cVxVTf@`J|/P=`m1A">
+                  <field name="FIELDNAME">一层白棋1-1</field>
+                </block>
+              </value>
+            </block>
+          </statement>
+          <next>
+            <block type="eventHTMLElem" id=";ErH6-p;9+zCJF.958GB">
+              <field name="EVENT">click</field>
+              <field name="PARENT">TRUE</field>
+              <value name="ID">
+                <block type="text" id="]FWCHm:sYmg:f9Qd|?cR">
+                  <field name="TEXT">marble2</field>
+                </block>
+              </value>
+              <statement name="DO">
+                <block type="assignMaterial" id="j;uN(ZLxWjirf#I?q1pA">
+                  <value name="VALUE2">
+                    <shadow type="materialList" id="l/C{7[aY4Ggs,qR!%xmt">
+                      <field name="FIELDNAME">大理石.001</field>
+                    </shadow>
+                  </value>
+                  <value name="VALUE1">
+                    <shadow type="objectList" id="/AE2yLn+FK78Q.Oi3Hlb">
+                      <field name="FIELDNAME">&lt;none&gt;</field>
+                    </shadow>
+                    <block type="objectList" id="]RPY#Kwi+M8zw1OrUtQU">
+                      <field name="FIELDNAME">一层白棋1-1</field>
+                    </block>
+                  </value>
+                </block>
+              </statement>
+              <next>
+                <block type="eventHTMLElem" id="Q.I%ldlwMc:bSvkSAht;">
+                  <field name="EVENT">click</field>
+                  <field name="PARENT">TRUE</field>
+                  <value name="ID">
+                    <block type="text" id="T!w1j=:ctTFUL}d6w|a4">
+                      <field name="TEXT">pudding</field>
+                    </block>
+                  </value>
+                  <statement name="DO">
+                    <block type="assignMaterial" id="}VKn+Z#p5{q8@LE1w|;h">
+                      <value name="VALUE2">
+                        <shadow type="materialList" id="N#xs$z[YO.MEJ)-n,o5P">
+                          <field name="FIELDNAME">布丁</field>
+                        </shadow>
+                      </value>
+                      <value name="VALUE1">
+                        <shadow type="objectList" id="/AE2yLn+FK78Q.Oi3Hlb">
+                          <field name="FIELDNAME">&lt;none&gt;</field>
+                        </shadow>
+                        <block type="objectList" id="4n]lk8Ce}qqGzA8S!Ma,">
+                          <field name="FIELDNAME">一层白棋1-1</field>
+                        </block>
+                      </value>
+                    </block>
+                  </statement>
+                  <next>
+                    <block type="eventHTMLElem" id="K+=)%/XdMn4FG}U/#hC5">
+                      <field name="EVENT">click</field>
+                      <field name="PARENT">TRUE</field>
+                      <value name="ID">
+                        <block type="text" id="Z[x6n#fL/Aww^*ss4l3i">
+                          <field name="TEXT">palmoxylon</field>
+                        </block>
+                      </value>
+                      <statement name="DO">
+                        <block type="assignMaterial" id="c-5!SoAPX9RrS!`)$yt$">
+                          <value name="VALUE2">
+                            <shadow type="materialList" id="XKe9Au[orr8Io|srDk`9">
+                              <field name="FIELDNAME">棕木</field>
+                            </shadow>
+                          </value>
+                          <value name="VALUE1">
+                            <shadow type="objectList" id="/AE2yLn+FK78Q.Oi3Hlb">
+                              <field name="FIELDNAME">&lt;none&gt;</field>
+                            </shadow>
+                            <block type="objectList" id="Q77mBN6nI0!}Y9Bhr4oM">
+                              <field name="FIELDNAME">一层白棋1-1</field>
+                            </block>
+                          </value>
+                        </block>
+                      </statement>
+                      <next>
+                        <block type="eventHTMLElem" id="|~ir}TwIYFYIdYXJJl^D">
+                          <field name="EVENT">click</field>
+                          <field name="PARENT">TRUE</field>
+                          <value name="ID">
+                            <block type="text" id="^%HW,nww.h-+[iMGFw3u">
+                              <field name="TEXT">whiteBirch</field>
+                            </block>
+                          </value>
+                          <statement name="DO">
+                            <block type="assignMaterial" id="1tk%wI9-DpLOyYAI1Mw@">
+                              <value name="VALUE2">
+                                <shadow type="materialList" id="SGBc902Df,FaThCnSk-:">
+                                  <field name="FIELDNAME">白桦木</field>
+                                </shadow>
+                              </value>
+                              <value name="VALUE1">
+                                <shadow type="objectList" id="/AE2yLn+FK78Q.Oi3Hlb">
+                                  <field name="FIELDNAME">&lt;none&gt;</field>
+                                </shadow>
+                                <block type="objectList" id="J`28*aglB0|}L_.V#.oE">
+                                  <field name="FIELDNAME">一层白棋1-1</field>
+                                </block>
+                              </value>
+                            </block>
+                          </statement>
+                          <next>
+                            <block type="eventHTMLElem" id="F,!vX{jsDsNZP3ltYLIL">
+                              <field name="EVENT">click</field>
+                              <field name="PARENT">TRUE</field>
+                              <value name="ID">
+                                <block type="text" id="?GwZEEuq3uP1NSB@WcK,">
+                                  <field name="TEXT">limestone</field>
+                                </block>
+                              </value>
+                              <statement name="DO">
+                                <block type="assignMaterial" id="iy()VmuDaVJtKe.Q:nZy">
+                                  <value name="VALUE2">
+                                    <shadow type="materialList" id="lLqv^PpR^fLnyg+${rkN">
+                                      <field name="FIELDNAME">石灰岩</field>
+                                    </shadow>
+                                  </value>
+                                  <value name="VALUE1">
+                                    <shadow type="objectList" id="/AE2yLn+FK78Q.Oi3Hlb">
+                                      <field name="FIELDNAME">&lt;none&gt;</field>
+                                    </shadow>
+                                    <block type="objectList" id="fwqcXYu`;W4SO|fD?vXH">
+                                      <field name="FIELDNAME">一层白棋1-1</field>
+                                    </block>
+                                  </value>
+                                </block>
+                              </statement>
+                              <next>
+                                <block type="eventHTMLElem" id="Wn71typC@!Yf(!x`@6h[">
+                                  <field name="EVENT">click</field>
+                                  <field name="PARENT">TRUE</field>
+                                  <value name="ID">
+                                    <block type="text" id="n67X1lY28:=b;yGWRZ4@">
+                                      <field name="TEXT">aluminiumAlloy</field>
+                                    </block>
+                                  </value>
+                                  <statement name="DO">
+                                    <block type="assignMaterial" id="ag0W2P/%}]$z;RMTKFAm">
+                                      <value name="VALUE2">
+                                        <shadow type="materialList" id="|La;o|-Q4.L!=;Ah;$@P">
+                                          <field name="FIELDNAME">铝合金</field>
+                                        </shadow>
+                                      </value>
+                                      <value name="VALUE1">
+                                        <shadow type="objectList" id="/AE2yLn+FK78Q.Oi3Hlb">
+                                          <field name="FIELDNAME">&lt;none&gt;</field>
+                                        </shadow>
+                                        <block type="objectList" id="yH2|o3d~YGJ^Z$4_K:q`">
+                                          <field name="FIELDNAME">一层白棋1-1</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </statement>
+                                  <next>
+                                    <block type="eventHTMLElem" id="*iK:)hAwh9Cg18f.w0lj">
+                                      <field name="EVENT">click</field>
+                                      <field name="PARENT">TRUE</field>
+                                      <value name="ID">
+                                        <block type="text" id="AwPjyX3FBX5HojSj!Eeb">
+                                          <field name="TEXT">Blackstone</field>
+                                        </block>
+                                      </value>
+                                      <statement name="DO">
+                                        <block type="assignMaterial" id="JVvX-,-Sk$nqcV-Lxb.(">
+                                          <value name="VALUE2">
+                                            <shadow type="materialList" id="4VXj~m87H{D^K_@wa[Es">
+                                              <field name="FIELDNAME">黑石</field>
+                                            </shadow>
+                                          </value>
+                                          <value name="VALUE1">
+                                            <shadow type="objectList" id="/AE2yLn+FK78Q.Oi3Hlb">
+                                              <field name="FIELDNAME">&lt;none&gt;</field>
+                                            </shadow>
+                                            <block type="objectList" id="hQ.W4q*@78T;2u%+z.ul">
+                                              <field name="FIELDNAME">一层白棋1-1</field>
+                                            </block>
+                                          </value>
+                                        </block>
+                                      </statement>
+                                      <next>
+                                        <block type="eventHTMLElem" id="|}5PevMl*7nnv3Cc4rF%">
+                                          <field name="EVENT">click</field>
+                                          <field name="PARENT">TRUE</field>
+                                          <value name="ID">
+                                            <block type="text" id="*?$+6atbuejI9?#M}f98">
+                                              <field name="TEXT">animatedHologram</field>
+                                            </block>
+                                          </value>
+                                          <statement name="DO">
+                                            <block type="assignMaterial" id=".nPR~G+olEVWYe!=m^wM">
+                                              <value name="VALUE2">
+                                                <shadow type="materialList" id="bi9-d/w8WQp^;!d759xc">
+                                                  <field name="FIELDNAME">Advanced Animated Hologram</field>
+                                                </shadow>
+                                              </value>
+                                              <value name="VALUE1">
+                                                <shadow type="objectList" id="/AE2yLn+FK78Q.Oi3Hlb">
+                                                  <field name="FIELDNAME">&lt;none&gt;</field>
+                                                </shadow>
+                                                <block type="objectList" id="m8uEG8N+DozP-P(cJQQF">
+                                                  <field name="FIELDNAME">一层白棋1-1</field>
+                                                </block>
+                                              </value>
+                                            </block>
+                                          </statement>
+                                          <next>
+                                            <block type="eventHTMLElem" id="I=Rp6Ozjg~dpY-9-W6x5">
+                                              <field name="EVENT">click</field>
+                                              <field name="PARENT">TRUE</field>
+                                              <value name="ID">
+                                                <block type="text" id="fG+EN4gB.?JE:MEPOm4d">
+                                                  <field name="TEXT">brownLeather</field>
+                                                </block>
+                                              </value>
+                                              <statement name="DO">
+                                                <block type="assignMaterial" id="8=u.@-fqVIUZYZoG5OID">
+                                                  <value name="VALUE2">
+                                                    <shadow type="materialList" id="6tvoNoQr2o;R*@,Atutv">
+                                                      <field name="FIELDNAME">Brown leather</field>
+                                                    </shadow>
+                                                  </value>
+                                                  <value name="VALUE1">
+                                                    <shadow type="objectList" id="/AE2yLn+FK78Q.Oi3Hlb">
+                                                      <field name="FIELDNAME">&lt;none&gt;</field>
+                                                    </shadow>
+                                                    <block type="objectList" id="4`_4lbA]e$~rCJB4uqA`">
+                                                      <field name="FIELDNAME">一层白棋1-1</field>
+                                                    </block>
+                                                  </value>
+                                                </block>
+                                              </statement>
+                                              <next>
+                                                <block type="eventHTMLElem" id="hW}[Wg`+OcA}n1u2qI7r">
+                                                  <field name="EVENT">click</field>
+                                                  <field name="PARENT">TRUE</field>
+                                                  <value name="ID">
+                                                    <block type="text" id="(N53rI8!@VZb_QGj|(zf">
+                                                      <field name="TEXT">cartoon</field>
+                                                    </block>
+                                                  </value>
+                                                  <statement name="DO">
+                                                    <block type="assignMaterial" id="-r)a.x#k59D}3Y4L`G$m">
+                                                      <value name="VALUE2">
+                                                        <shadow type="materialList" id=":wM;w8F}KFK(l/fxPaTs">
+                                                          <field name="FIELDNAME">Cartoon shader</field>
+                                                        </shadow>
+                                                      </value>
+                                                      <value name="VALUE1">
+                                                        <shadow type="objectList" id="/AE2yLn+FK78Q.Oi3Hlb">
+                                                          <field name="FIELDNAME">&lt;none&gt;</field>
+                                                        </shadow>
+                                                        <block type="objectList" id="OzA_lb6m_ehN,E/uW.UW">
+                                                          <field name="FIELDNAME">一层白棋1-1</field>
+                                                        </block>
+                                                      </value>
+                                                    </block>
+                                                  </statement>
+                                                  <next>
+                                                    <block type="eventHTMLElem" id="(;XPn)uz}G_BW=SV633e">
+                                                      <field name="EVENT">click</field>
+                                                      <field name="PARENT">TRUE</field>
+                                                      <value name="ID">
+                                                        <block type="text" id="|RGJX[uj6ib:|d+oqy$0">
+                                                          <field name="TEXT">cedar</field>
+                                                        </block>
+                                                      </value>
+                                                      <statement name="DO">
+                                                        <block type="assignMaterial" id="}s8x_7^zB8y-A.`Que=0">
+                                                          <value name="VALUE2">
+                                                            <shadow type="materialList" id="t/Kd5W3,Ukh}ZdvE2aAD">
+                                                              <field name="FIELDNAME">Cedar wood knots epoxy</field>
+                                                            </shadow>
+                                                          </value>
+                                                          <value name="VALUE1">
+                                                            <shadow type="objectList" id="/AE2yLn+FK78Q.Oi3Hlb">
+                                                              <field name="FIELDNAME">&lt;none&gt;</field>
+                                                            </shadow>
+                                                            <block type="objectList" id="8ZAeQO~{5PIzCy`=k5~o">
+                                                              <field name="FIELDNAME">一层白棋1-1</field>
+                                                            </block>
+                                                          </value>
+                                                        </block>
+                                                      </statement>
+                                                      <next>
+                                                        <block type="eventHTMLElem" id="=)oXF0#!rGlMY@0o,B,n">
+                                                          <field name="EVENT">click</field>
+                                                          <field name="PARENT">TRUE</field>
+                                                          <value name="ID">
+                                                            <block type="text" id="CY0s$.^IoFI#-^1A}X1s">
+                                                              <field name="TEXT">bubble</field>
+                                                            </block>
+                                                          </value>
+                                                          <statement name="DO">
+                                                            <block type="assignMaterial" id="}E}@Zw5MHF|a`v5hcxtK">
+                                                              <value name="VALUE2">
+                                                                <shadow type="materialList" id="_uHH^VuGkz};FIz:N8#i">
+                                                                  <field name="FIELDNAME">FRC Soap Bubble Material</field>
+                                                                </shadow>
+                                                              </value>
+                                                              <value name="VALUE1">
+                                                                <shadow type="objectList" id="/AE2yLn+FK78Q.Oi3Hlb">
+                                                                  <field name="FIELDNAME">&lt;none&gt;</field>
+                                                                </shadow>
+                                                                <block type="objectList" id="l@Od`Zurt;3F5LH@ACSS">
+                                                                  <field name="FIELDNAME">一层白棋1-1</field>
+                                                                </block>
+                                                              </value>
+                                                            </block>
+                                                          </statement>
+                                                          <next>
+                                                            <block type="eventHTMLElem" id="wmrE`F!*omMH/wSo(Uxr">
+                                                              <field name="EVENT">click</field>
+                                                              <field name="PARENT">TRUE</field>
+                                                              <value name="ID">
+                                                                <block type="text" id=")aJ6%+|!WuUD8hNH}~v6">
+                                                                  <field name="TEXT">glass</field>
+                                                                </block>
+                                                              </value>
+                                                              <statement name="DO">
+                                                                <block type="assignMaterial" id="haaNRM5e*k^SCumS,FoV">
+                                                                  <value name="VALUE2">
+                                                                    <shadow type="materialList" id="qnp0L,4G-a]OJwubU2}D">
+                                                                      <field name="FIELDNAME">Glass Dispersion</field>
+                                                                    </shadow>
+                                                                  </value>
+                                                                  <value name="VALUE1">
+                                                                    <shadow type="objectList" id="/AE2yLn+FK78Q.Oi3Hlb">
+                                                                      <field name="FIELDNAME">&lt;none&gt;</field>
+                                                                    </shadow>
+                                                                    <block type="objectList" id="IdOd;Z`E`)`-]B;0Bi$r">
+                                                                      <field name="FIELDNAME">一层白棋1-1</field>
+                                                                    </block>
+                                                                  </value>
+                                                                </block>
+                                                              </statement>
+                                                              <next>
+                                                                <block type="eventHTMLElem" id="ri8q!u?3G{1N`dc#eV7W">
+                                                                  <field name="EVENT">click</field>
+                                                                  <field name="PARENT">TRUE</field>
+                                                                  <value name="ID">
+                                                                    <block type="text" id="nE,RLladJr1T|Drz]!Ji">
+                                                                      <field name="TEXT">gold</field>
+                                                                    </block>
+                                                                  </value>
+                                                                  <statement name="DO">
+                                                                    <block type="assignMaterial" id="+VFB!-hP8U!,1zb2MQ7@">
+                                                                      <value name="VALUE2">
+                                                                        <shadow type="materialList" id="!d!qJFHeg3T[)8Qk.2wd">
+                                                                          <field name="FIELDNAME">Gold</field>
+                                                                        </shadow>
+                                                                      </value>
+                                                                      <value name="VALUE1">
+                                                                        <shadow type="objectList" id="/AE2yLn+FK78Q.Oi3Hlb">
+                                                                          <field name="FIELDNAME">&lt;none&gt;</field>
+                                                                        </shadow>
+                                                                        <block type="objectList" id="G*40.v)}l%yJA;r6{b[f">
+                                                                          <field name="FIELDNAME">一层白棋1-1</field>
+                                                                        </block>
+                                                                      </value>
+                                                                    </block>
+                                                                  </statement>
+                                                                  <next>
+                                                                    <block type="eventHTMLElem" id="{~DpRC$+Q{,DDFud=l#u">
+                                                                      <field name="EVENT">click</field>
+                                                                      <field name="PARENT">TRUE</field>
+                                                                      <value name="ID">
+                                                                        <block type="text" id="^@y-NzWA/0k$D^`~8gxs">
+                                                                          <field name="TEXT">mayonnaise</field>
+                                                                        </block>
+                                                                      </value>
+                                                                      <statement name="DO">
+                                                                        <block type="assignMaterial" id="VxpvTyigesKn/^iuKUi.">
+                                                                          <value name="VALUE2">
+                                                                            <shadow type="materialList" id="_r_3L*Qw2Tu+xFW7D=Gv">
+                                                                              <field name="FIELDNAME">Spicy mayonnaise</field>
+                                                                            </shadow>
+                                                                          </value>
+                                                                          <value name="VALUE1">
+                                                                            <shadow type="objectList" id="/AE2yLn+FK78Q.Oi3Hlb">
+                                                                              <field name="FIELDNAME">&lt;none&gt;</field>
+                                                                            </shadow>
+                                                                            <block type="objectList" id="0WnE}{R6@DATv5l;O1Ic">
+                                                                              <field name="FIELDNAME">一层白棋1-1</field>
+                                                                            </block>
+                                                                          </value>
+                                                                        </block>
+                                                                      </statement>
+                                                                    </block>
+                                                                  </next>
+                                                                </block>
+                                                              </next>
+                                                            </block>
+                                                          </next>
+                                                        </block>
+                                                      </next>
+                                                    </block>
+                                                  </next>
+                                                </block>
+                                              </next>
+                                            </block>
+                                          </next>
+                                        </block>
+                                      </next>
+                                    </block>
+                                  </next>
+                                </block>
+                              </next>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="loadFile" id="BGO-V|;eq?5FG%^lD8eC" x="-313" y="-2550">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" disablecaching="false"></mutation>
+      <value name="URL">
+        <block type="text" id="`ycXT^oS$qVI@{!wVF~z">
+          <field name="TEXT">ar_pricelist.csv</field>
+        </block>
+      </value>
+      <statement name="DO">
+        <block type="variables_set" id="4~d,`gr-L``lya9kOe4]">
+          <field name="VAR" id="wEC)uc`WeFxa]LaOvHu-">pricelist</field>
+          <value name="VALUE">
+            <block type="readCSV" id="`U8c$2/V)Cm(O,$Kp;TR">
+              <field name="DELIMIT">,</field>
+              <value name="TEXT">
+                <block type="loadedFile" id="O-jr@G-Y`w*:g3jDs+|2"></block>
+              </value>
+              <value name="FROM">
+                <shadow type="math_number" id="v5`Qm,SdA82e827BM1_R">
+                  <field name="NUM">1</field>
+                </shadow>
+              </value>
+            </block>
+          </value>
+        </block>
+      </statement>
+      <next>
+        <block type="setHTMLElemStyle" id="P7a_}aIyiD|rgtegPR0k">
+          <field name="PROPERTY">visibility</field>
+          <field name="PARENT">FALSE</field>
+          <value name="VALUE">
+            <block type="text" id="k%,nf|9ces;Nd!:B{I,+">
+              <field name="TEXT">hidden</field>
+            </block>
+          </value>
+          <value name="ID">
+            <block type="text" id="p[34Kfc=(i,qSb@5/#rX">
+              <field name="TEXT">fullscreen-button</field>
+            </block>
+          </value>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="W95{^ECO4;#Tg}UV9@V+" x="-233" y="-2351">
+      <field name="EVENT">click</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <block type="text" id="tS1|.|X+nZ$2hZ(KgVmr">
+          <field name="TEXT">change_position_button</field>
+        </block>
+      </value>
+      <statement name="DO">
+        <block type="playAnimationAdv" id="-Kd~Ux_6E(PgdjcQq)~*">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+          <field name="REVERSED">FALSE</field>
+          <field name="LOOP">LoopOnce</field>
+          <value name="VALUE">
+            <shadow type="animationList" id="x+Y1;2M8?6E51rO}{.+s">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="animationList" id="}kbhM5`B02c/Gx7}b1bZ">
+              <field name="FIELDNAME">一层白棋1-1</field>
+            </block>
+          </value>
+          <next>
+            <block type="controls_if" id="9`YFswFYV5Z/ghXO]i~,">
+              <mutation elseif="1"></mutation>
+              <value name="IF0">
+                <block type="logic_compare" id="@s2qRu@lyio83F.YNTk8">
+                  <field name="OP">EQ</field>
+                  <value name="A">
+                    <block type="variables_get" id="!K%.Tmp=)/XK:i~AjeU,">
+                      <field name="VAR" id="od/`0c,[Fnna0xqUzf#_">recliner_unfolded</field>
+                    </block>
+                  </value>
+                  <value name="B">
+                    <block type="math_number" id="aS!/9/`V)DT@sMDhd0yc">
+                      <field name="NUM">0</field>
+                    </block>
+                  </value>
+                </block>
+              </value>
+              <statement name="DO0">
+                <block type="setHTMLElemStyle" id="SU.9z346[l.d-lr?_La%">
+                  <field name="PROPERTY">backgroundImage</field>
+                  <field name="PARENT">TRUE</field>
+                  <value name="VALUE">
+                    <block type="text" id="8Yd}UpCOXz;6OZdVz:Di">
+                      <field name="TEXT">url("images/fold.png")</field>
+                    </block>
+                  </value>
+                  <value name="ID">
+                    <block type="text" id="d+zlww_!p/qw9afQVfuf">
+                      <field name="TEXT">change_position_button</field>
+                    </block>
+                  </value>
+                </block>
+              </statement>
+              <value name="IF1">
+                <block type="logic_compare" id="^AU2M2%b?f!y/7K-4_s)">
+                  <field name="OP">EQ</field>
+                  <value name="A">
+                    <block type="variables_get" id="0Mg5}t#Cl{+fByK+.*CU">
+                      <field name="VAR" id="od/`0c,[Fnna0xqUzf#_">recliner_unfolded</field>
+                    </block>
+                  </value>
+                  <value name="B">
+                    <block type="math_number" id="dT?g1@^fs~p@/7#3II]+">
+                      <field name="NUM">1</field>
+                    </block>
+                  </value>
+                </block>
+              </value>
+              <statement name="DO1">
+                <block type="setHTMLElemStyle" id="Y2X|[x-`O+0Io`*IQJ?g">
+                  <field name="PROPERTY">backgroundImage</field>
+                  <field name="PARENT">TRUE</field>
+                  <value name="VALUE">
+                    <block type="text" id="4]IawxqI;}@Z4R2i6W%}">
+                      <field name="TEXT">url("images/unfold.png")</field>
+                    </block>
+                  </value>
+                  <value name="ID">
+                    <block type="text" id="ywGf`m]xt!6TpEy^e@mG">
+                      <field name="TEXT">change_position_button</field>
+                    </block>
+                  </value>
+                </block>
+              </statement>
+            </block>
+          </next>
+        </block>
+      </statement>
+      <next>
+        <block type="eventHTMLElem" id="q]aB4BMAVLbe@)rE(iPe">
+          <field name="EVENT">click</field>
+          <field name="PARENT">TRUE</field>
+          <value name="ID">
+            <block type="text" id="^ObCWRis*7l=l#bTLAvR">
+              <field name="TEXT">facebook_button</field>
+            </block>
+          </value>
+          <statement name="DO">
+            <block type="openWebPage" id="wH9Psq%/j7i_a#^BL0)}">
+              <field name="MODE">NEW</field>
+              <value name="URL">
+                <shadow type="text" id="Nr-:BxCAWKr22lYTDl::">
+                  <field name="TEXT">https://www.soft8soft.com/</field>
+                </shadow>
+                <block type="socialShareLink" id="eG+4-pNKoU+jjmnfQodr">
+                  <field name="MEDIA">FB</field>
+                  <value name="TITLE">
+                    <shadow type="text" id="U~QmKJ|kd@@i*]cFP5gy">
+                      <field name="TEXT">Awesome Recliner</field>
+                    </shadow>
+                  </value>
+                  <value name="TEXT">
+                    <shadow type="text" id="dSltJzT~3~*,cvR3)Q!-">
+                      <field name="TEXT">This stylish and soft recliner has well padded arms and back cushions. It has been designed and manufactured with the highest standards in mind offering an exceptional strength, durability and paramount comfort.</field>
+                    </shadow>
+                  </value>
+                </block>
+              </value>
+            </block>
+          </statement>
+          <next>
+            <block type="eventHTMLElem" id="Eotuz;{M%dK-+ulm5-/5">
+              <field name="EVENT">click</field>
+              <field name="PARENT">TRUE</field>
+              <value name="ID">
+                <block type="text" id="ied;%)#7a@Y,SN}}3)l;">
+                  <field name="TEXT">twitter_button</field>
+                </block>
+              </value>
+              <statement name="DO">
+                <block type="openWebPage" id="+|;Wo_oW=3{o?e2{*;@)">
+                  <field name="MODE">NEW</field>
+                  <value name="URL">
+                    <shadow type="text" id="Nr-:BxCAWKr22lYTDl::">
+                      <field name="TEXT">https://www.soft8soft.com/</field>
+                    </shadow>
+                    <block type="socialShareLink" id="N1/d{0!MnHm};5yz3m@R">
+                      <field name="MEDIA">TWITTER</field>
+                      <value name="TITLE">
+                        <shadow type="text" id="$)*|^qsN^s#Ut#4E{V}]">
+                          <field name="TEXT">Awesome Recliner</field>
+                        </shadow>
+                      </value>
+                      <value name="TEXT">
+                        <shadow type="text" id="M0S|1)0uZfK,GPG%CQ}S">
+                          <field name="TEXT">This stylish and soft recliner has well padded arms and back cushions. It has been designed and manufactured with the highest standards in mind offering an exceptional strength, durability and paramount comfort.</field>
+                        </shadow>
+                      </value>
+                    </block>
+                  </value>
+                </block>
+              </statement>
+              <next>
+                <block type="eventHTMLElem" id="h,qDx8$MNB.K%LOr(uF~">
+                  <field name="EVENT">click</field>
+                  <field name="PARENT">TRUE</field>
+                  <value name="ID">
+                    <block type="text" id="Eb:AirH.cZB9dYVX~NAi">
+                      <field name="TEXT">linkedin_button</field>
+                    </block>
+                  </value>
+                  <statement name="DO">
+                    <block type="openWebPage" id="+cgci$}487.F[cfmH4+(">
+                      <field name="MODE">NEW</field>
+                      <value name="URL">
+                        <shadow type="text" id="Nr-:BxCAWKr22lYTDl::">
+                          <field name="TEXT">https://www.soft8soft.com/</field>
+                        </shadow>
+                        <block type="socialShareLink" id="=EvOC@l,w@#?(OqAa.rt">
+                          <field name="MEDIA">LINKEDIN</field>
+                          <value name="TITLE">
+                            <shadow type="text" id="XN;VtBbIgRV7JkEQ.1)2">
+                              <field name="TEXT">Awesome Recliner</field>
+                            </shadow>
+                          </value>
+                          <value name="TEXT">
+                            <shadow type="text" id="AK!~N]1w){G(QgK$-?8z">
+                              <field name="TEXT">This stylish and soft recliner has well padded arms and back cushions. It has been designed and manufactured with the highest standards in mind offering an exceptional strength, durability and paramount comfort.</field>
+                            </shadow>
+                          </value>
+                        </block>
+                      </value>
+                    </block>
+                  </statement>
+                  <next>
+                    <block type="eventHTMLElem" id="=/aYmk|hCp@O+fQcKNZG">
+                      <field name="EVENT">click</field>
+                      <field name="PARENT">TRUE</field>
+                      <value name="ID">
+                        <block type="text" id="{+eiWV,wEQ{drl|e]L_b">
+                          <field name="TEXT">google_button</field>
+                        </block>
+                      </value>
+                      <statement name="DO">
+                        <block type="openWebPage" id="@@6$(F24EE+{l?NT+I(L">
+                          <field name="MODE">NEW</field>
+                          <value name="URL">
+                            <shadow type="text" id="Nr-:BxCAWKr22lYTDl::">
+                              <field name="TEXT">https://www.soft8soft.com/</field>
+                            </shadow>
+                            <block type="socialShareLink" id="mro#Nh|4ooPf6BhJRT}~">
+                              <field name="MEDIA">GPLUS</field>
+                              <value name="TITLE">
+                                <shadow type="text" id="MHD|Y0+eTi5I1`F5Eo$|">
+                                  <field name="TEXT">Awesome Recliner</field>
+                                </shadow>
+                              </value>
+                              <value name="TEXT">
+                                <shadow type="text" id="FqrWgl~eE#PF2v3]Y~MH">
+                                  <field name="TEXT">This stylish and soft recliner has well padded arms and back cushions. It has been designed and manufactured with the highest standards in mind offering an exceptional strength, durability and paramount comfort.</field>
+                                </shadow>
+                              </value>
+                            </block>
+                          </value>
+                        </block>
+                      </statement>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+  </tab>
+  <editorsettings viewport-x="846" viewport-y="28" viewport-w="576" viewport-h="385" viewport-hidden="true" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="52ef4f64-9401-4806-8a30-b00622b1ab3c" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/ground_mask.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ground_mask_001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Blackstone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/aluminiumAlloy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/animatedHologram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/brownLeather.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/bubble.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/cartoon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/cedar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/cream.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/favicon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/glass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/limestone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/marble.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/marble2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/mayonnaise.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/palmoxylon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pudding.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/whiteBirch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qzb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recliner.blend1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recliner2.bin.xz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recliner3.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recliner3.bin.xz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recliner3.gltf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recliner3.gltf.xz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/recliner-shop.webflow.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/recliner-shop.webflow.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ground_ao.ktx2" beforeDir="false" afterPath="$PROJECT_DIR$/ground_ao.ktx2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/black_leather.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/black_leather_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/green_velvet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/purple_velvet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/red_leather.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/textile_cage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/textile_lines.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/white_leather.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recliner.bin" beforeDir="false" afterPath="$PROJECT_DIR$/recliner.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recliner.bin.xz" beforeDir="false" afterPath="$PROJECT_DIR$/recliner.bin.xz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recliner.blend" beforeDir="false" afterPath="$PROJECT_DIR$/recliner.blend" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recliner.gltf" beforeDir="false" afterPath="$PROJECT_DIR$/recliner.gltf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recliner.gltf.xz" beforeDir="false" afterPath="$PROJECT_DIR$/recliner.gltf.xz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_logic.js" beforeDir="false" afterPath="$PROJECT_DIR$/visual_logic.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_logic.xml" beforeDir="false" afterPath="$PROJECT_DIR$/visual_logic.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2epUaAxAhdDZ2nsARtxEVzZ9XwV" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "last_opened_file_path": "C:/Application/Programming/Verge3D_for_Blender/applications/recliner",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Application\Programming\Verge3D_for_Blender\applications\recliner" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Application\Programming\Verge3D_for_Blender\applications\recliner\images" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="52ef4f64-9401-4806-8a30-b00622b1ab3c" name="更改" comment="" />
+      <created>1712601073884</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1712601073884</updated>
+      <workItem from="1712601075181" duration="8988000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
